@@ -19,7 +19,7 @@ using namespace sf;
 class cell {
   public: bool mine = 0;
   bool revealed = 0;
-  bool value = 0;
+  int value = 0;
   bool flag = 0; // could have assigned a mine a value of 9 instead
 }; //board cell declaration
 
